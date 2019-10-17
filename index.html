@@ -7,12 +7,13 @@ button { background-color:blue;
 <body>
 <p>Hello, my name is Gautam Jauhari and I'm a Drexel Student</p> 
 <img src= "Eiffel.jpg" alt="img">  
-  <h1 id="demo">Hello World</h1>  
-  <button onclick="PrintID(ID)">Click Button</button>
-  <script>
-  function PrintID() {
-    document.getElementByID("demo").innerHTML = "Enter your SSN";
-  }
-  </script>
+  <h2>JavaScript in Head</h2>
+  <p id="demo">A Paragraph.</p>
+  <button type="button" onclick="myFunction()">Try it</button>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Well Done.";
+}
+</script>
 </body>
 </html>
