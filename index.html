@@ -6,6 +6,12 @@ background-color:blue;
 <body>
 <p>Hello, my name is Gautam Jauhari and I'm a Drexel Student</p> 
 <img src= "Eiffel.jpg" alt="img">  
-  <button onclick="PrintID()">Click Button</button>  
+  <h1 id="demo">Hello World</h1>  
+  <button onclick="PrintID()">Click Button</button>
+  <script>
+  fucntion PrintID() {
+    document.getElementByID("demo").innerHTML = "Enter your SSN";
+  }
+  </script>
 </body>
 </html>
